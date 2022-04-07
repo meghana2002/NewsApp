@@ -7,8 +7,7 @@ alert("hello world")
 //  alert
 // coloser
 // hoisting
-// network bassics
-
+// network bassic
 
 
 
