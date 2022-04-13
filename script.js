@@ -6,11 +6,3 @@ alert("hello world")
 // coloser
 // hoisting
 // network bassic
-
-
-
-
-
-
-
-
