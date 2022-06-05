@@ -1,1 +1,1 @@
-# E-news-app
+# E-news-paper
