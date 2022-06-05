@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>News App</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- header  -->
+
+    <header class="header">
+      <div class="header_container">
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+            </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <div class="logo">
+          <p>News App</p>
+        </div>
+
+        <div class="search_ops">
+          <select class="inp" id="country">
+            <option value="">Select Country</option>
+            <option value="in">India</option>
+            <option value="us">USA</option>
+            <option value="aus">Australia</option>
+          </select>
+
+          <select class="inp" id="category">
+            <option value="">Select Category</option>
+            <option value="politics">Politics</option>
+            <option value="business">Business</option>
+            <option value="technology">Technology</option>
+          </select>
+
+          <button class="btn" onclick="search()">Get News</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- news part  -->
+
+    <section class="news" id="news">
+      
+    </section>
+    <footer>
+        <p class="text">Sign up to recieve special offers and updates</p>
+        <form>
+            <input type="email" required>
+            <input type="submit" value="Sign Up">
+        </form>
+       
+        <p class="copyrights">&copy; 2022 Omega News Designed By Samridhi</p>
+    </footer>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
 
