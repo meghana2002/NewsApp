@@ -1,3 +1,4 @@
-# E-news-paper
-E newspaper website made using html , css and javascript.
-It has a translator as well which help you to change it into any language so can it is easy for you to read newspaper in your preferred language
+# News App
+The news website is a web-based application created using HTML, CSS, and JavaScript. It is designed to provide users with the latest news and updates from around the world. 
+The website features a simple and user-friendly interface that allows users to select their preferred language for reading the news. This feature is implemented using Google Translate API that automatically translates the content into the selected language. Users can choose from a wide range of languages available in the API.
+In conclusion, the E-newspaper website is a simple, yet powerful web application that provides users with the latest news and updates from around the world. Its language translation feature makes it easy for users to read news in their preferred language, while the simple and user-friendly interface ensures a smooth user experience.
